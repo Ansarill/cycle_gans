@@ -1,8 +1,10 @@
-# CycleGAN for Image-to-Image Translation
+# CycleGAN for Image-to-Image Translation 🐴🦄🦓
+![Paired vs Unpaired](pairedvsunpaired.png)
 
 This project implements a Cycle-Consistent Generative Adversarial Network (CycleGAN) for unpaired image-to-image translation tasks. Based on the original [CycleGAN paper](https://arxiv.org/abs/1703.10593), this implementation learns to translate images between two domains without paired training examples.
 
 ## Project Overview
+![Cycle Gans Architecture](architecture.png)
 
 The implementation includes:
 - Custom dataset loader for unpaired image datasets
@@ -12,7 +14,7 @@ The implementation includes:
 - Adversarial loss with both MSE and BCE implementations
 - Training pipeline with visualization of results
 
-## Key Features
+## Key Features ✨
 
 - **Flexible Architecture**: Supports different normalization layers and activation functions
 - **Comprehensive Loss Functions**: Implements cycle-consistency loss and adversarial loss
@@ -37,8 +39,7 @@ source my_env/bin/activate
 pip install -r requirements.txt
 ```
 
-## Usage
-
+## Usage 🚀
 1. Prepare your dataset in the following structure (or follow notebook to download one of datasets) and change variables in the notebook accordingly:
 ```
 datasets/
