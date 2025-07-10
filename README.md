@@ -38,6 +38,10 @@ source my_env/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+4. Run streamlit
+```
+streamlit run app.py
+```
 
 ## Usage 🚀
 1. Prepare your dataset in the following structure (or follow notebook to download one of datasets) and change variables in the notebook accordingly:
